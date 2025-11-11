@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "181328332685",
+    "project_id": "gestortareas-sotero",
+    "storage_bucket": "gestortareas-sotero.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181328332685:android:68bcba559075965cc75fc4",
+        "android_client_info": {
+          "package_name": "com.example.gestortareassotero"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1igr_yTgm9Y1w07ODRYjRuRCE8FnGpbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
