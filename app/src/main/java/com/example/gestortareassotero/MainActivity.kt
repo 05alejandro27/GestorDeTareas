@@ -4,8 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.example.gestortareassotero.auth.LoginScreen
-import com.example.gestortareassotero.auth.SignUpScreen
+import com.example.gestortareassotero.navigation.AppNavigation
 import com.example.gestortareassotero.ui.theme.GestorTareasSoteroTheme
 
 class MainActivity : ComponentActivity() {
@@ -14,7 +13,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             GestorTareasSoteroTheme {
-                LoginScreen()
+                AppNavigation()
             }
         }
     }
