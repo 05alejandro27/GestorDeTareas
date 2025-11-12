@@ -22,7 +22,6 @@ fun AppNavigation() {
     // con sesión activa. Si hay alguien logueado devuelve sus datos,
     // si no devuelve null.
 
-    // Define el destino inicial en función del estado de autenticación.
     val startDestination = if (firebaseUser != null) {
         // Decidimos cuál será la primera pantalla que verá el usuario.
         // Si firebaseUser NO es null (hay alguien logueado)...
